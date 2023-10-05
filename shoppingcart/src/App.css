@@ -1,0 +1,160 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+body{
+  background-image:url(sand.jpg) ;
+  background-size: cover;
+  background-attachment:fixed ;
+
+}
+.element:hover{
+  animation: blink 1s infinite;    
+  transform: translateY(-1rem);
+  transition: 0.3s ease-in-out;
+  
+}
+.shop{
+  background-color: aliceblue;
+  border-radius: 4px;
+}
+
+.kk{
+  height: 100vh;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+
+}
+
+.h{
+  background: rgba(2, 0, 36, 0.76);
+  color: white !important;
+  font-weight: 400;
+  font-size: medium;
+background-image: url(glass.jpg);
+
+}
+.pro{
+  color: white;
+}
+
+.image{
+  background-image: url(sand.jpg);
+  background-size: cover;
+  color: white;
+  height:51rem;
+  margin-top: -50px;
+  background-attachment: fixed;
+}
+.pic{
+  background-color: rgba(185, 185, 199, 0.637);
+  background-size: cover;
+  color: white;
+}
+
+.n{
+  color: white !important;
+  font-weight: 400;
+  font-size: medium;
+background-image: url(road.jpg);
+background-size: cover;
+
+
+}
+.navv{
+  display: flex !important;
+  justify-content: space-evenly !important;
+  align-items: center;
+  
+}
+.bg{
+  background-color:rgba(0, 255, 255, 0.773) !important;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.ok:hover{
+  z-index: 99;
+  cursor: pointer;
+  background-color: rgba(30, 189, 195, 0.833);
+  width: 106%;
+  height: 106%;
+ 
+}
+.ok{
+  background-color: rgba(95, 158, 160, 0.57);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.k{
+  background: #87e8f5;
+  background-image: url(girls.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+  color:rgba(252, 248, 248, 0.945) !important;
+  font-weight: 400;
+  font-size: medium;
+}
+.form-control{
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.829) !important;
+  border: 1px solid hsl(51, 100%, 50%);
+  color: black;
+  
+}
+.pp{
+  padding: 50px 90px 50px 90px;
+  background-color: hsla(201, 100%, 6%, 0.418);
+  border-radius: 8px;
+}
+.ppp{
+  padding: 50px 90px 50px 90px;
+  background-color: hsla(201, 100%, 6%, 0.486);
+  border-radius: 8px;
+  
+
+}
+.w{
+  width: max-content;
+  display: flex;
+  flex-direction: column;
+}
+
+
+/* Add this to a CSS file, e.g., Loading.css */
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.spinner {
+  border: 4px solid rgba(255, 255, 255, 0.3);
+  border-top: 4px solid #3498db;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+.width{
+  width: 600px;
+  height: 500px;
+}
+
+/* CustomToast.css */
+.black-toast {
+  background-color: black !important;
+  color: white !important;
+}
+
+
